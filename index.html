@@ -5,53 +5,59 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="contenedor" background='lap.png'>
+        <i class='bx bx-menu-alt-right' ></i>
         <nav class="menu">
-            <a href="">Inicio</a>
-            <a href="">Acerca de </a>
-            <a href="">Portafolio</a>
-            <a href="">Contacto</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#acerca">Acerca de </a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
         </nav>
         <div class="contenedor-texto-header">
             <h1 class="titulo-header">Abigail</h1>
             <div class="linea"></div>
             <h2 class="sub-header">Front-end Developer</h2>
-            <a href="" class="call-to-action">Contratame ahora</a>
+            <a href="redes-contacto" class="call-to-action">Contratame ahora</a>
         </div>
     </header>
     <main>
-        <section class="acerca-de">
+        <section class="acerca-de" id="acerca">
             <div class="contenedor">
                 <div class="texto-acerca">
-                <h2>Simple & puro diseño</h2>
+                    <object data="img/network__isometric.svg" type="image/svg+xml"></object>
+                    
+                <h2>¡Podemos hacer trabajos maravillosos!</h2>
                 </div>
             </div>
         </section>
-        <section class="iconos">
+        <section class="habilidades" id ="habilidades">
             <div class="contenedor">
+                <h3>¡Estas son las habilidades que he desarrollado!</h3>
                 <div class="contenedor-iconos">
                     <div class="icono-individual">
-                        <i class="fas fa-code"></i>
+                        <object data="img/ui_design__isometric.svg" type="image/svg+xml"></object>
                         <h3>Javascript</h3>
                         <p>Habilidaes</p>
                     </div>
                     <div class="icono-individual">
-                        <i class="fas fa-people-arrows"></i>
+                        <object data="img/web_development__isometric.svg" type="image/svg+xml"></object>
                         <h3>Javascript</h3>
                         <p>Habilidaes</p>
                     </div>
                     <div class="icono-individual">
-                        <i class="fas fa-laptop-code"></i>
+                        <object data="img/code_development__isometric.svg" type="image/svg+xml"></object>
                         <h3>Javascript</h3>
                         <p>Habilidaes</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="portafolio">
+        <section class="portafolio" id="portafolio">
             <div class="contendor">
                 <h2 class="titulo-portafolio">Haciendo proyectos maravillosos</h2>
             </div>
@@ -62,23 +68,26 @@
         </section>
     </main>
     <footer class="contenedor">
-        <div class=redes-contacto>
+        <div class="redes-contacto" id="contacto">
             <div class="contenedor-icono">
-                <a href="" target="" class="git">
+                <a href="https://github.com/abigail-sanlo" target="" class="git">
                     <i class="fab fa-github"></i>
                 </a>
             </div>
             <div class="contenedor-icono">
-                <a href="" target="" class="link">
+                <a href="https://www.linkedin.com/in/abigail-sanchez-8990561a3/" target="" class="link">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>
             <div class="contenedor-icono">
-                <a href="" target="" class="perfiLab">
+                <a href="CVAbigail.pdf" target="" class="perfiLab">
                     <i class="fas fa-file-code"></i>
                 </a>
             </div>
         </div>
     </footer>
+
+
+    <script src="js/menu.js"></script>
 </body>
 </html>

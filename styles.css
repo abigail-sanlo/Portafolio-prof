@@ -20,12 +20,15 @@ body{
     background-color: gray;
 }
 header{
-    background-image: url('https://i.pinimg.com/564x/72/b4/9c/72b49c3458b81d9a02a2a0c77185b288.jpg');
-    height:600px;
+    /*background-image: url('https://i.pinimg.com/564x/72/b4/9c/72b49c3458b81d9a02a2a0c77185b288.jpg');*/
+    height:100vh;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position:center;
-    background-attachment: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.459) 0%, rgba(251, 194, 235, 0.507) 100%);
 }
+
 .menu{
     display: flex;
     justify-content: flex-end;
